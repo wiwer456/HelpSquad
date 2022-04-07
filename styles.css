@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+.main {
+      background-color: #FFF5F5;
+}
+.main-d{
+      background-color: #FFF2F2;
+}
+.mns-regular{
+      font-weight:400;  
+      font-family: 'Montserrat', sans-serif;
+    }
+    .mns-bold{
+      font-weight:700;  
+      font-family: 'Montserrat', sans-serif;
+    }
+    .mns-extra{
+      font-weight:200;  
+      font-family: 'Montserrat', sans-serif;
+    }
+    .peoples{
+      height: 500px;
+      width: 300px;
+      position: absolute;
+      }
+      .img{
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+      }
+.peoples:hover{
+      height: 510px;
+      width: 310px;
+      transition: 0.3s;
+}
+.event{
+      height: 600px;
+      margin-top: 30px;
+}
+.ev-one{
+      height: 600px;
+}
+.ev-two{
+      height: 600px;
+}
+.ev-img{
+      height: 200px;
+      width: 200px;
+}
+.get{
+      height: 500px;
+    }
+.inpts{
+      border-radius: 200px;
+}
+.menuS{
+      position: absolute; 
+      top: 40px; 
+      left: 0px; 
+      background-color: black; 
+      width: 80px; 
+      opacity: 0;
+      display: none;
+}
+.menuS:hover{
+     opacity: 1;
+}
+.peoples{
+      height: 500px;
+}
+.ta-c{
+      text-align: center;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+   .main-bgimg{
+    background-image: url(bg-baner.jpg);
+    width: 1900px;
+    height: 1000px;
+    background-size: 100%;
+   }
+   .bg-collor{
+    background-color: black;
+    
+   }
+   .news{
+    background-color: red;
+    height: 1000px;
+    width: 1900px;
+    padding-top: 200px;
+    display: flex;
+    background-image: url(bg-news2);
+   }
+       .news-1{
+        height: 900px;
+        width: 300px;
+        background-color: pink;
+        display: flex;
+       }
+          .news-logo{
+            height: 150px;
+            width: 300px;
+            background-color: grey;
+            text-align: center;
+            padding-top: 20px;
+          }
+            .txt-news{
+              color: black;
+              font-family: 
+            }
+       .news-2{
+        height: 900px;
+        width: 1700px;
+        background-color: blue;
+        padding-left: 50px
+       }
+          .obn{
+            height: 510px;
+            width: 300px;
+            background-color: ;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid black;
+            }
+                
+            .obn-2{
+            height: 510px;
+            width: 300px;
+            background-color: ;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid black;
+          }
+              
+
+     .game{
+      height: 1100px;
+      width: 1900px;
+      background-color: yellow;
+      padding-top: 200px;
+      background-image: url(bg-game.png);
+     }
+         .gametxt-div{
+          height: 500px;
+          width: 1000px;
+          margin-right: auto;
+          margin-left: auto;
+          background-color: grey;
+          text-align: center;
+          padding-top: 100px
+         }
+         .img-obn{
+          width: 300px
+         }
+         .obn-txt{
+          background-color: grey;
+          width: 295px;
+          height: 200px;
+          margin-top: 160px;
+          text-align: center;
+         }
+         .obn-txt:hover{
+          background-color: white;
+          width: 295px;
+          height: 200px;
+          transition: 2s;
+
+         }
+         .buuton{
+          color: black;
+          height: 50px;
+          width: 150px;
+         background-color: white;
+         margin-left: auto;
+         margin-right: auto;
+         padding-top: 10px
+         }
